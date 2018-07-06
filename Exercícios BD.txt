@@ -1,0 +1,79 @@
+CONTEÚDO REVISÃO
+SELECIONE 5 ENUNCIADOS E RESOLVA-OS.
+
+Recupere o endereço de todos os empregados que trabalham no departamento 8.
+
+Para cada projeto localizado em “Setor 3”, recupere o numero do projeto, o número do departamento responsável e o último nome do gerente do departamento.
+
+Retorne os ssn de empregados que ganham mais que todos os empregados do departamento 2.
+
+Para cada empregado, retorne o seu ssn e sexo bem como essas informações de seu supervisor.
+
+Recupere o nome de todos os empregados associados a algum departamento.
+
+Recupere os salários dos empregados, mostrando como seria caso tivessem um aumento de 10%.
+
+Recupere todos os empregados que ganham entre 1000 e 2000 reais.
+
+Recupere os empregados que trabalham em projetos controlados pelo departamento 2, em ordem crescente de nome e decrescente de endereço.
+
+Retorne o primeiro nome de todos os empregados que trabalham no projeto “Corte de gastos”.
+
+Retorne a média dos salário pagos.
+
+Retorne o nome (em ordem crescente) de todos os departamentos localizados em "Alfenas". 
+
+************************************************************************************************************************************************************************
+CONTEÚDO VIEW
+SELECIONE 5 ENUNCIADOS E RESOLVA-OS.
+
+Desenvolva uma visão que retorne todos os empregados e seus respectivos departamentos.
+
+Deselvolva uma visão que retorne o nome dos empregados e seus respectivos salários caso o aumento de 20% em cada salário some um valor acima de 1000 reais.
+
+Desenvolva uma visão que retorne o primeiro nome dos empregados e seus respectivos salários. Em seguida, atualize os salários de 5000 para 4000 apenas na view. Descreva o que acontece com a view e com a tabela original.
+
+Supomnhamos que queiramos saber quais os valores de salário que são pagos na empresa. Desenvolva uma visão que retorne o primeiro nome dos empregados e seus respectivos salários agrupados (group by) por salario (retirar salarios repetidos). Em seguida tente atualiazar a view. descreva o que acontece.
+
+Desenvolva uma view que retorne o nome dos empregados e os nomes dos projetos em que eles trabalham.
+
+Desenvolva uma view que retorne o nome dos empregados que trabalham no projeto "Aquisição de máquinas".
+
+Desenvolva uma view que retorne o primeiro nome e o último nome do supervisor de cada empregado.
+
+Desenvolva uma view que retorne o primeiro nome do gerente de cada departamento.
+
+Desenvolva uma view que retorne o nome dos dependentes do sexo feminino do empregado de primeiro nome "Dara".
+
+************************************************************************************************************************************************************************
+CONTEÚDO ASSERTION
+SELECIONE 5 ENUNCIADOS E RESOLVA-OS.
+
+Desenvolva uma restrição que impeça que o salário de um empregado não seja maior que o salário do gerente do departamento em que ele trabalha.
+
+Desenvolva uma restrição que impeça que o salário de um empregado, que não seja supervisor de algum outro empregado, seja sempre inferior a R$ 2.500,00.
+
+Desenvolva uma restrição que impeça que um empregado só possa ser gerente de um departamento se o mesmo estiver vinculado a este departamento.
+
+Desenvolva uma restrição que impeça que um empregado tenha mais que um dependente.
+
+Desenvolva uma restrição que impeça que um departamento seja gerenciado por um empregado que ainda não é supervisor.
+
+Desenvolva uma restrição que impeça um projeto seja localizado em "Alfenas".
+
+Desenvolva uma restrição que impeça que um empregado seja mais velho que seu supervisor.
+
+Desenvolva uma restrição que impeça que um empregado trabalhe em mais de um projeto.
+
+Desenvolva uma restrição que impeça que um supervisor tenha sexo masculino.
+
+Desenvolva uma restrição que impeça que um gerente de departamento tenha menos de 18 anos.
+
+
+
+
+
+
+
+
+
